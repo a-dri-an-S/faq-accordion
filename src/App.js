@@ -1,10 +1,11 @@
+import FAQCard from './components/FAQCard'; 
 import './styles/styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>F.A.Q. Accordion</h1>
-    </div>
+    <main className="App">
+      <FAQCard/>
+    </main>
   );
 }
 
